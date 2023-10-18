@@ -5,8 +5,8 @@ echo "hai, am learning devops with aws"
 
 
 
-PERSON1=Ramesh
-PERSON2=Suresh
+PERSON1=rohit
+PERSON2=virat
 
 
 echo "$PERSON1: hai, how are you $PERSON2?"
