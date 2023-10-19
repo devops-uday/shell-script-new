@@ -9,4 +9,4 @@ then
 fi
 
 
- yum install mysql -y
+ yum install mysql
