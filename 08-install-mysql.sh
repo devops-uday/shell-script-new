@@ -9,4 +9,12 @@ then
 fi
 
 
- yum install mysql
+ yum install mysqll -y
+
+ if [ $? -ne 0 ]
+ then
+    echo "installation of mysql is error"
+    exit 1
+else 
+    echo "installation of mysql is succes"
+fi
