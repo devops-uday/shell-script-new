@@ -11,3 +11,4 @@ echo "all variables : $@"
 
 echo "number of variables : $#"
 
+echo "exit status : $?"
