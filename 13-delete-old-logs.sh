@@ -20,4 +20,4 @@ while read line
 do 
     echo "deleting $line" &>$LOGFILE
     rm -rf $line
-done < $FILES_TO_DELETE
+done <<< $FILES_TO_DELETE
