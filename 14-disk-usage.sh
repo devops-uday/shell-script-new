@@ -33,7 +33,7 @@ do
     fi
 done <<< $DISK_USAGE
 
-echo -e "message : $message"
+echo -e "message : $message \n"
 
 echo "$message" | mail -s "HIGH DISK USAGE" yuday0555@gmail.com
 
