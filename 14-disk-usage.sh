@@ -16,7 +16,7 @@ N="\e[0m"
 
 DISK_USAGE=$(df -hT | grep -vE 'tmpf|Filesystem')
 DISK_USAGE_THRESHOLD=1
-message=""
+message=
 
 # 'IFS= 'means INTERNAL FIELD SEPARATOR is 'space'
 while IFS= read line
