@@ -12,4 +12,8 @@ TEAM_NAME=$4
 ALERT_TYPE=$5
 
 
-echo " all args : $@"
+#echo " all args : $@"
+
+FINAL_BODY=$(sed -e 's/TEAM_NAME/DEVOPS TEAM/g' -e 's/ALERT_TYPE/High Disk Usage/g' -e "s/MEASSAGE/$BODY" template.html)
+
+echo "$FINAL_BODY" | mail -s "$SUBJECT" $TO_ADDRESS
